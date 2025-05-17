@@ -56,30 +56,10 @@ void GameOfLife::addPattern(int x, int y, Pattern pattern) {
             if (isValidCell(x+12, y+8)) grid[y+8][x+12] = true;
             if (isValidCell(x+13, y+8)) grid[y+8][x+13] = true;
             break;
-            
-        case R_PENTOMINO:
-            if (isValidCell(x+1, y)) grid[y][x+1] = true;
-            if (isValidCell(x+2, y)) grid[y][x+2] = true;
-            if (isValidCell(x, y+1)) grid[y+1][x] = true;
-            if (isValidCell(x+1, y+1)) grid[y+1][x+1] = true;
-            if (isValidCell(x+1, y+2)) grid[y+2][x+1] = true;
-            break;
-            
-        case SPACESHIP:
-            if (isValidCell(x+1, y)) grid[y][x+1] = true;
-            if (isValidCell(x+2, y)) grid[y][x+2] = true;
-            if (isValidCell(x+3, y)) grid[y][x+3] = true;
-            if (isValidCell(x+4, y)) grid[y][x+4] = true;
-            if (isValidCell(x, y+1)) grid[y+1][x] = true;
-            if (isValidCell(x+4, y+1)) grid[y+1][x+4] = true;
-            if (isValidCell(x+4, y+2)) grid[y+2][x+4] = true;
-            if (isValidCell(x, y+3)) grid[y+3][x] = true;
-            if (isValidCell(x+3, y+3)) grid[y+3][x+3] = true;
-            break;
     }
     updatePopulation();
 }
 
 void GameOfLife::cyclePattern() {
-    currentPattern = static_cast<Pattern>((currentPattern + 1) % 4);
+    currentPattern = static_cast<Pattern>((currentPattern + 1) % 2);
 }
