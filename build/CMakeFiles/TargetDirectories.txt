@@ -1,0 +1,5 @@
+/mnt/c/Users/Bob/Desktop/projectX/life/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Bob/Desktop/projectX/life/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Bob/Desktop/projectX/life/build/src/CMakeFiles/life_game.dir
+/mnt/c/Users/Bob/Desktop/projectX/life/build/src/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Bob/Desktop/projectX/life/build/src/CMakeFiles/rebuild_cache.dir
