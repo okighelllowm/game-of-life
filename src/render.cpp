@@ -50,8 +50,6 @@ void GameOfLife::drawInfo() {
         switch (currentPattern) {
             case GLIDER: oss << "Glider"; break;
             case GOSPER_GUN: oss << "Gosper Gun"; break;
-            case R_PENTOMINO: oss << "R-pentomino"; break;
-            case SPACESHIP: oss << "Spaceship"; break;
         }
         
         oss << "\n\nControls:\n"
