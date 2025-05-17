@@ -1,7 +1,7 @@
 #include "game_of_life.h"
 
 int main() {
-    GameOfLife game(100, 100);
+    GameOfLife game(200, 80);
     game.run();
     return 0;
 }
