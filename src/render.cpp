@@ -63,8 +63,8 @@ void GameOfLife::drawInfo() {
             << "T - Toggle world\n"
             << "L - Toggle grid\n"
             << "I - Toggle info\n"
-            << "↑/↓ - Change speed\n"
-            << "←/→ - Change cell size\n"
+            << "Up/Down - Change speed\n"
+            << "Left/Right - Change cell size\n"
             << "Click/Drag - Draw cells\n"
             << "Right drag - Erase cells";
         
